@@ -1,0 +1,68 @@
+.container{
+    background: #cccccc	;
+    padding: .25rem;
+    /* fazendo a rolagem do chat */
+    overflow: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 300px;
+    white-space:nowrap; 
+    
+}
+
+.titulo{
+    color: #00ffbf;
+}
+
+.messagem{
+    color: black;
+    display: block;
+    margin: .1rem 0;
+}
+
+.sms_autor{
+    
+    margin: 0 60% ;
+    text-align: right;
+    width: 40%;
+    background-color: #00ffbf;
+    border-radius: 12px;
+}
+
+.sms_destinatario{
+    text-align: right;
+    width: 40%;
+    background-color: pink;
+    border-radius: 12px;
+}
+
+.usuario{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.mensagem{
+    width: 40%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: .5rem;
+    text-wrap: balance;
+}
+
+.input_sms{
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.chat{
+    padding: .25rem;
+    background-color:#00ffbf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+}
